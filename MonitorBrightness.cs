@@ -16,7 +16,7 @@ public class MonitorBirghtness
         needSetBrightness = true;
         setBrightness = i;
     }
-    public Manager_MonitorBirghtness(int _baseBrightness)
+    public MonitorBirghtness(int _baseBrightness)
     {
         mThread = new Thread(run);
         mThread.Start();
